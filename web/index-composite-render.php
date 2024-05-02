@@ -17,7 +17,7 @@ use app\bootstrap\Alert;
 <html lang="ru-RU" class="h-100">
 <head>
     <title>
-        ООП Песочница
+        Шаблон проектирования "Компоновщик"
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -74,7 +74,7 @@ use app\bootstrap\Alert;
                     ->addInnerTags([
                         (new HtmlTag(null, 'text-center mb-4 mt-3'))
                             ->addInnerTag(
-                                new HtmlTag(null, '','ООП Песочница', [], 'h1'),
+                                new HtmlTag(null, '','Шаблон проектирования "Компоновщик"', [], 'h1'),
                             ),
                         ...$tags
                     ])
