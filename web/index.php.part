@@ -1,0 +1,52 @@
+...
+                    <div class="mb-3 required">
+                        <?=
+                            new Label(
+                                'month',
+                                'Месяц',
+                            )
+                        ?>
+                        <?=
+                            new Select(
+                                'month',
+                                $lists['months'],
+                                'Выберите параметр',
+                                $_POST['month'] ?? null,
+                            )
+                        ?>
+                    </div>
+
+                    <div class="mb-3 required">
+                        <?=
+                            new Label(
+                                'tonnage',
+                                'Тоннаж',
+                            )
+                        ?>
+                        <?=
+                            new Select(
+                                'tonnage',
+                                $lists['tonnages'],
+                                'Выберите параметр',
+                                $_POST['tonnage'] ?? null,
+                            )
+                        ?>
+                    </div>
+
+                    <div class="mb-3 required">
+                        <?=
+                            new Label(
+                                'raw_type',
+                                'Тип сырья',
+                            )
+                        ?>
+                        <?=
+                            new Select(
+                                'raw_type',
+                                $lists['raw_types'],
+                                'Выберите параметр',
+                                $_POST['raw_type'] ?? null,
+                            )
+                        ?>
+                    </div>
+...
